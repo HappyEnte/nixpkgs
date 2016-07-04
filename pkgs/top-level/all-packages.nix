@@ -3795,6 +3795,8 @@ in
 
   wego = callPackage ../applications/misc/wego { };
 
+  mop = callPackage ../applications/misc/mop { };
+
   wal_e = callPackage ../tools/backup/wal-e { };
 
   watchman = callPackage ../development/tools/watchman { };

@@ -16507,11 +16507,11 @@ in modules // {
 
   pgcli = buildPythonPackage rec {
     name = "pgcli-${version}";
-    version = "1.0.0";
+    version = "1.1.0";
     disabled = isPy35;
 
     src = pkgs.fetchFromGitHub {
-      sha256 = "19jdnrz2qzlmxyhf0gyrj0dg0jfk1zar0jvm1vigswgmq2m6mm4v";
+      sha256 = "155avdckg93w3rmx0mz17wi6vcaba3lcppv9qwa6xlxfds9yzvlq";
       rev = "v${version}";
       repo = "pgcli";
       owner = "dbcli";
@@ -26701,12 +26701,12 @@ in modules // {
   };
 
   neovim = buildPythonPackage rec {
-    version = "0.1.8";
+    version = "0.1.9";
     name = "neovim-${version}";
 
     src = pkgs.fetchurl {
       url = "mirror://pypi/n/neovim/${name}.tar.gz";
-      sha256 = "06g84f0l208jrc1iqa4vk9kgwr77z1ya8cq39cygpq88yjj28whi";
+      sha256 = "09q7yz0v9i90grp4cmb1w8dps58q9xny7sb12kgmd8gcr8xwk4dx";
     };
 
     buildInputs = with self; [ nose ];

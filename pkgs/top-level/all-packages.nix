@@ -2117,6 +2117,8 @@ in
 
   ipmiview = callPackage ../applications/misc/ipmiview {};
 
+  smcipmitool = callPackage ../tools/system/smcipmitool {};
+
   ipcalc = callPackage ../tools/networking/ipcalc {};
 
   ipv6calc = callPackage ../tools/networking/ipv6calc {};
